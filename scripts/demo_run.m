@@ -1,5 +1,5 @@
 % scripts/demo_run.m
-addpath('src');
+addpath(fullfile('..','src'));
 y = readmatrix('data/y_example.csv');
 s = 12; Ngrid = 0:8; Kgrid = 0:3; criterion = 'bic';
 best = select_model(y, s, Ngrid, Kgrid, criterion);
