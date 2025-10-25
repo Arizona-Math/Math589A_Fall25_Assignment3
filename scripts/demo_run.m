@@ -1,6 +1,6 @@
 % scripts/demo_run.m
 addpath(fullfile('..','src'));
-y = readmatrix(fullfile('..','data','y_example.csv');
+y = readmatrix(fullfile('..','data','y_example.csv'));
 s = 12; Ngrid = 0:8; Kgrid = 0:3; criterion = 'bic';
 best = select_model(y, s, Ngrid, Kgrid, criterion);
 yhat = predict_in_sample(y, s, best.coef);
