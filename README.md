@@ -24,7 +24,7 @@ writing "spaghetti code".
   in folder src); MATLAB unit tests are run with command runtests; make
   sure that your code passes unit tests; add new tests as necessary;
   note that the MATLAB unit testing framework resembles pytest in Python - by
-  issuing one command all unit tests are run
+  issuing one command all unit tests are run.
 
 
 ## Autograding
