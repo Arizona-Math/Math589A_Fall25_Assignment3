@@ -11,6 +11,6 @@ y_t \approx c + d t \sum_{i=1}^{N} a_i y_{t-i} + \sum_{k=1}^{K} \big(\alpha_k \c
 \]
 
 ## A detailed formulation of the problem
-See the PDF [main.pdf](problem/main.pdf)
+See the PDF [main.pdf](./problem/main.pdf)
 
 
