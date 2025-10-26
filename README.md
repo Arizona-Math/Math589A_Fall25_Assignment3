@@ -1,39 +1,26 @@
 # Seasonal Difference-Equation (QR-only) — Starter
 
-This repository is a minimal, **QR-only** MATLAB starter for the project
-described in this PDF: [main.pdf](./problem/main.pdf)
+This repository is a minimal, **QR-only** MATLAB starter for the project described in this [PDF](./problem/main.pdf).
 
-### About starter code
+## About the Starter Code
 
-You are strongly advised to clone this repository, read all the files,
-and understand their purpsoe.
+You are strongly advised to **clone this repository**, read all the files, and understand their purpose.
 
-The layout of the top folder in the repository inhibits bad habits, such as
-writing "spaghetti code".
+### Repository Structure
 
-  * src - this folder implements all supporting ("library") code; each piece of
-  code is placed in a function with a clear interface (inputs and outputs);
-  no global variables are used
+The layout of the top folder in the repository promotes good coding practices by discouraging "spaghetti code":
 
-  * scripts - this folder implements "drivers" for the code in the folder src; 
-  these files are meant to implement tasks such as visualization and obtaining
-  the final results.
-  
-  * tests - this folder implements unit tests, i.e., programs which
-  test the smallest units of functionality (typically, the functions
-  in folder src); MATLAB unit tests are run with command runtests; make
-  sure that your code passes unit tests; add new tests as necessary;
-  note that the MATLAB unit testing framework resembles pytest in Python - by
-  issuing one command all unit tests are run.
+- **src**: This folder implements all supporting ("library") code. Each piece of code is encapsulated in a function with a clear interface (inputs and outputs), and no global variables are used.
 
+- **scripts**: This folder implements "drivers" for the code in the `src` folder. These files are intended for tasks such as visualization and obtaining final results.
+
+- **tests**: This folder contains unit tests, which test the smallest units of functionality (typically, the functions in the `src` folder). 
+  - MATLAB unit tests are run using the command `runtests`. 
+  - Ensure that your code passes all unit tests and add new tests as necessary.
+  - Note that the MATLAB unit testing framework resembles `pytest` in Python; by issuing one command, all unit tests will be executed.
 
 ## Autograding
 
-Please examine the file [grade.m](./scripts/grade.m).
-In particular, make sure that an autograder can call \textbf{all functions}
-called in this file and that the semantics of all functions is unchanged.
-The real autograder will be similar, but it may use different data. Your
-code should automatically handle different cities as listed here
-[https://zenodo.org/records/7826348]([https://zenodo.org/records/7826348])
+Please examine the file [grade.m](./scripts/grade.m). 
 
-
+In particular, ensure that an autograder can call **all functions** referenced in this file, and that the semantics of these functions remain unchanged. The actual autograder will be similar, but it may use different data. Your code should be capable of automatically handling different cities as listed here: [City Data](https://zenodo.org/records/7826348).
