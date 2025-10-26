@@ -13,4 +13,10 @@ y_t \approx c + d t \sum_{i=1}^{N} a_i y_{t-i} + \sum_{k=1}^{K} \big(\alpha_k \c
 ## A detailed formulation of the problem
 See the PDF [main.pdf](./problem/main.pdf)
 
+## Autograding
+
+Please examine the file [grade.m](./scripts/grade.m).
+In particular, make sure that an autograder can call \textbf{all functions}
+called in this file and that the semantics of all functions is unchanged.
+
 
