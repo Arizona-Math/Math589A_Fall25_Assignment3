@@ -1,5 +1,8 @@
 function [best, yhat, mse, yF] = grade
 % scripts/grade.m  -- compact, parseable output for autograder
+% NOTE: This is an example how your code will be called when autograding.
+% Make sure that all functions called in this script are defined and
+% have the correct semantics.
     addpath(fullfile('..','src'));
     y = readmatrix(fullfile('..','data','y_example.csv'));
     s = 12; Ngrid = 0:10; Kgrid = 0:3; criterion = 'bic';
