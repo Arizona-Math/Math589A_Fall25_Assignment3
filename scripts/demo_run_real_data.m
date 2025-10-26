@@ -1,4 +1,4 @@
-% scripts/demo_run.m
+% scripts/demo_run_real_data.m
 addpath(fullfile('..','src'));
 tbl = readtable('../data/tucsonAZ.csv');
 y = tbl.wateruse;
