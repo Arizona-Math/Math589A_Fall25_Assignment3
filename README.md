@@ -28,4 +28,4 @@ The layout of the top folder in the repository promotes good coding practices by
 
 Please examine the file [grade.m](./scripts/grade.m). 
 
-In particular, ensure that an autograder can call **all functions** referenced in this file, and that the semantics of these functions remain unchanged. The actual autograder will be similar, but it may use different data. Your code should be capable of automatically handling different cities as listed here: [City Data](https://zenodo.org/records/7826348).
+In particular, ensure that an autograder can call **all functions** referenced in this file, and that the semantics of these functions remain unchanged. The actual autograder will be similar, but it may use different data. Your code should be capable of automatically handling different cities as listed here: [City Data](https://zenodo.org/records/7826348). The actual data is here: [Utility Data](https://github.com/reneeobringer/ClimateAnalogs_WEN/tree/v1.0.0/UtilityData).
