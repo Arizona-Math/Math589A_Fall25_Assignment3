@@ -1,4 +1,4 @@
-function grade
+function [best, yhat, mse, yF] = grade
 % scripts/grade.m  -- compact, parseable output for autograder
     addpath(fullfile('..','src'));
     y = readmatrix(fullfile('..','data','y_example.csv'));
