@@ -6,6 +6,11 @@ This repository is a minimal, **QR-only** MATLAB starter for the project describ
 
 You are strongly advised to **clone this repository**, read all the files, and understand their purpose.
 
+## Beware: the code does not solve the posed problem
+
+The code provided solves a restricted version of the problem. Figure our what the
+limitation is and modify the supplied code to solve the correct problem.
+
 ### Repository Structure
 
 The layout of the top folder in the repository promotes good coding practices by discouraging "spaghetti code":
